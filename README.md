@@ -9,7 +9,7 @@ nodejs环境下 快速连接操作mysql  数据连接池版本
 
 # 安装
 
-```npm install dmhsq-mysql-db```
+```npm install dmhsq-mysql-pool```
 
 # 使用示例
 
