@@ -1,5 +1,5 @@
-# dmhsq-mysql-db
-nodejs环境下 快速连接操作mysql
+# dmhsq-mysql-pool
+nodejs环境下 快速连接操作mysql  数据连接池版本
 
 可用于腾讯云SCF 以及云开发环境
 
