@@ -1,6 +1,6 @@
 {
   "name": "dmhsq-mysql-pool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "快速操作mysql 数据连接池版本 示例参考readme.md文件 错误处理尚未完善 部分错误参考mysql错误",
   "main": "index.js",
   "repository": "https://github.com/dmhsq/dmhsq-mysql-pool.git",
