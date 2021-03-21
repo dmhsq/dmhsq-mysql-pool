@@ -30,7 +30,7 @@ nodejs环境下 快速连接操作mysql  数据连接池版本
 # 引入资源
 
 ```javascript
-const database = require("dmhsq-mysql-db")
+const database = require("dmhsq-mysql-pool")
 ```
 
 # 连接数据库
