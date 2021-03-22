@@ -210,23 +210,22 @@ class database {
 						//事件驱动回调   
 						if (eerr) {
 							let res = {}
-							switch (err.code) {
+							switch (eerr.code) {
 								case "ER_DUP_ENTRY": {
 									res = {
-										code: err.sqlState,
+										code: eerr.sqlState,
 										msg: "字段值重复"
 									}
 									break;
 								}
 								default: {
 									res = {
-										code: err.sqlState,
-										msg: err.message
+										code: eerr.sqlState,
+										msg: eerr.message
 									}
 									break;
 								}
 							}
-							this.connection.end();
 							resolve(res)
 						} else {
 							const dataR = JSON.parse(JSON.stringify(result))
